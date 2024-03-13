@@ -1,0 +1,271 @@
+.navbar-nav .nav-link, .navbar-details li a {
+    color: #8AA4C1;
+    font-weight: 700;
+    font-size: 16px;
+}
+.dropdown-menu {
+    background-color: #212529;
+    box-shadow: inset 0px 6px 42px -13px aliceblue;
+}
+.dropdown-menu[data-bs-popper] {
+    right: 0px !important;
+    left: unset;
+}
+.navbar-details li .dropdown-item:hover,
+.navbar-details li .dropdown-item:focus
+.navbar-details li .dropdown-item:active {
+    background-color: #21252900 !important;
+    text-decoration: underline;
+    color: aliceblue !important;
+}
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 75%;
+        justify-content: start !important;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .navbar-details li .dropdown-item {
+        text-wrap: wrap;
+    }
+}
+.navbar-nav .nav-link:focus, 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: aliceblue !important;
+    text-decoration: underline;
+}
+.navbar-nav .nav-link:hover, .search-menu:active, .search-menu:hover {
+    color: aliceblue;
+    border-color: aliceblue !important;
+}
+.search-menu {
+    color: #8AA4C1;
+    border-color: #8AA4C1;
+}
+.carousel-bg {
+    background-color: #dc3545;
+}
+.carousel-area {
+    height: auto;
+}
+.carousel-area .carousel-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.pro-ad-img {
+    height: 48vh;
+}
+.product-off {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product-name {
+    font-size: 32px;
+}
+.product-price {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carousel-image {
+    width: 100%;
+    height: 95vh;
+}
+.c-heading {
+    font-size: 12vh;
+    font-weight: bolder;
+    text-wrap: nowrap;
+}
+.c-info {
+    font-size: 6vh;
+    font-weight: 400;
+}
+.search_background {
+    /* background-image: url(/assets/images/background-search-img.png); */
+    background: linear-gradient(277deg,  rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/background-search-img.png);
+    background-size: cover;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.search-heading {
+    font-size: 8vh;
+    font-weight: 600;
+}
+.search-info {
+    font-size: 4vh;
+    font-weight: 500;
+}
+.ad-customs {
+    background: #dc3545;
+    color: aliceblue;
+    font-size: 5vh;
+    border-radius: 0px 14px 142px 0px;
+    font-weight: 700;
+    width: 292.67px;
+    height: 15vh;
+}
+.background-parallax {
+    background-image: url(/assets/images/paralllax-background.png);
+    background-size: cover;
+    background-position-y: center;
+}
+.product-card {
+    margin-top: -88px
+}
+.nav-pills .nav-link, .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+    color: #000;
+    font-weight: 600;
+}
+.nav-pills .nav-link.active {
+    background-color: #dadada !important;
+    color: #000 !important;
+}
+.product-card-body button:hover {
+    background-color: #f20d43;
+    border-color: #f20d43;
+    color: #ffffff;
+}
+.background-navtabs, .product-card-body {
+    background-color: #f4f4f4;
+}
+@media (min-width: 577px) and (max-width: 768px){
+    .start-0 {
+        left: 2% !important;
+    }
+}
+@media (min-width: 399px) and (max-width: 576px){
+    .start-0 {
+        left: 2% !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .start-0 {
+        left: 3% !important;
+    }
+}
+.ad-image {
+    height: 100%;
+}
+.see-product:hover {
+    color: #dc3545 !important;
+}
+@media screen and (max-width: 575px){
+    .c-heading {
+        font-size: 4vh;
+        font-weight: bolder;
+        text-wrap: nowrap;
+    }
+    .c-info {
+        font-size: 2vh;
+        font-weight: 400;
+    }
+    .carousel-image {
+        height: 54vh;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .c-heading {
+        font-size: 6vh;
+        font-weight: bolder;
+        text-wrap: nowrap;
+    }
+    .c-info {
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    .carousel-image {
+        height: 69vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .c-heading {
+        font-size: 8vh;
+        font-weight: bolder;
+        text-wrap: nowrap;
+    }
+    .c-info {
+        font-size: 2vh;
+        font-weight: 400;
+    }
+    .carousel-image {
+        height: 75vh;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .border-end {
+        border: none !important;
+    }
+}
+
+/* ---------------------------------footer start-------------------------------------------- */
+.footer-backgrouund {
+    /* background-color: #011327;  */
+    background-image: linear-gradient(277deg,  rgba(0, 0, 0, 1.8), rgba(0, 0, 0, 0.8)), url(/assets/images/footer-tire-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foorter-link h3 {
+    color: #ffffff;
+}
+.foorter-link ul li {
+    padding: 12px 0 0 0;
+    color: #8AA4c1; 
+}
+.social-media {
+    border-radius: 50%;
+}
+.social-media:hover {
+    background-color: #5f6975;
+}
+.social-media-icon {
+    padding: 12px 13px;
+}
+.foorter-link ul li a {
+    text-decoration: none !important; 
+    color:#8AA4c1;  
+    font-size: 13px;  
+    font-weight: 500;
+}
+.foorter-link ul li a:hover, .foorter-link ul li:hover {
+    color: #ffffff;
+}
+.foorter-link {
+    color: #ffffff;
+    list-style: none;
+}
+/* ---------------------------------footer end---------------------------------------------- */
+/* ----------------------------kishore-------------------------------- */
+.footer-backgrouund {
+    background-color: #011327; 
+}
+.foorter-link h3 {
+    color: #ffffff;
+}
+.foorter-link ul li {
+    padding: 12px 0 0 0;
+    color: #8AA4c1; 
+}
+.social-media {
+    border-radius: 50%;
+}
+.social-media:hover {
+    background-color: #5f6975;
+}
+.social-media-icon {
+    padding: 12px 13px;
+}
+.foorter-link ul li a {
+    text-decoration: none !important; 
+    color:#8AA4c1;  
+    font-size: 12px;  
+}
+.foorter-link ul li a:hover, .foorter-link ul li:hover {
+    color: #ffffff;
+}
+.foorter-link {
+    color: #ffffff;
+    list-style: none;
+}
